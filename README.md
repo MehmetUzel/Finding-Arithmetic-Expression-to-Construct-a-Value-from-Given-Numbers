@@ -69,3 +69,5 @@ Next question is the one about combining expressions. Two arbitrary expressions 
 Final question is about maintaining a set and a queue of expressions. At this step it becomes obvious why we had to devise expression signatures. With that tool at hand, we can create an array of whatever values we need and then simply use expression signature as an index pointing to the corresponding value in the array. The queue would be maintained equally simply - it would contain just expression signatures, since the signature is quite sufficient to access all the information about the expression.
 
 Now that all technical difficulties have been dealt with, we are ready to provide the full source code of the solution. The source code is commented so that it can be read apart from the algorithm provided above. It is given in the form of C# console application which depends on a couple of .NET Framework classes (hashtable, dictionary, queue). But these classes are only collections with well known behavior, meaning that you could rewrite the solution to any other programming language or framework easily.
+
+http://codinghelmet.com/exercises/expression-from-numbers
